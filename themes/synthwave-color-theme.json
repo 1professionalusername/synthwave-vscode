@@ -147,7 +147,7 @@
       "scope": "comment",
       "settings": {
         "foreground": "#495495",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -170,7 +170,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable", "entity.name.variable"],
+      "scope": [
+        "variable",
+        "entity.name.variable"
+      ],
       "settings": {
         "foreground": "#ff7edb"
       }
@@ -192,7 +195,10 @@
     },
     {
       "name": "Storage (declaration or modifier keyword)",
-      "scope": ["storage.type", "storage.modifier"],
+      "scope": [
+        "storage.type",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#fede5d"
       }
@@ -248,7 +254,9 @@
     },
     {
       "name": "HTML or XML tag brackets",
-      "scope": ["punctuation.definition.tag"],
+      "scope": [
+        "punctuation.definition.tag"
+      ],
       "settings": {
         "foreground": "#36f9f6"
       }
@@ -270,7 +278,10 @@
     },
     {
       "name": "Class",
-      "scope": ["entity.name.type", "meta.attribute.class.html"],
+      "scope": [
+        "entity.name.type",
+        "meta.attribute.class.html"
+      ],
       "settings": {
         "foreground": "#fe4450"
       }
@@ -284,14 +295,20 @@
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function", "variable.function"],
+      "scope": [
+        "entity.name.function",
+        "variable.function"
+      ],
       "settings": {
         "foreground": "#36f9f6"
       }
     },
     {
       "name": "JS Export",
-      "scope": ["keyword.control.export.js", "keyword.control.import.js"],
+      "scope": [
+        "keyword.control.export.js",
+        "keyword.control.import.js"
+      ],
       "settings": {
         "foreground": "#72f1b8"
       }
@@ -358,7 +375,10 @@
     },
     {
       "name": "Object literal key / property",
-      "scope": ["meta.object-literal.key", "support.type.property-name"],
+      "scope": [
+        "meta.object-literal.key",
+        "support.type.property-name"
+      ],
       "settings": {
         "foreground": "#ff7edb"
       }
@@ -451,14 +471,20 @@
     },
     {
       "name": "Markup heading",
-      "scope": ["markup.heading", "entity.name.section"],
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
       "settings": {
         "foreground": "#ff7edb"
       }
     },
     {
       "name": "Markup text",
-      "scope": ["text.html", "keyword.operator.assignment"],
+      "scope": [
+        "text.html",
+        "keyword.operator.assignment"
+      ],
       "settings": {
         "foreground": "#ffffffee"
       }
